@@ -1,9 +1,21 @@
 body {
-    background: blanchedalmond;
+  background: blanchedalmond;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;    /* Center vertically */
+  height: 100vh;          /* Full viewport height */
+  margin: 0;              /* Remove default body margin */
+  flex-direction: column; /* Stack items vertically */
+  font-family:cursive;
   }
 
 #main-header {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:'Brush Script MT', 'Arial Narrow', Arial, sans-serif;
   font-size:50px;
-  color:white
+  color:white;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-bottom: 20px; /* Add some space between the image and the button */
 }
