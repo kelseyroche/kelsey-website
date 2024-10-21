@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const image = document.getElementById('photo');
     const button = document.getElementById('changeImageBtn');
 
-    const images = ['images/photo1.jpg', 'images/photo2.jpg','images/photo3.jpg','images/photo4.jpg','images/photo5.jpg','images/photo6.jpg'];
+    const images = ['images/photo1.JPG', 'images/photo2.JPG','images/photo3.JPG','images/photo4.JPG','images/photo5.JPG','images/photo6.JPG'];
     let currentIndex = 0;
 
     button.addEventListener('click', () => {
